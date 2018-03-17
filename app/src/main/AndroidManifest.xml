@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ankiit.navigation">
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="My Pizza"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+
+        </activity>
+        <activity
+            android:name=".MenuItems"
+            android:label="Menu Items"
+            android:theme="@style/Theme.Design.Light" />
+        <activity
+            android:name=".offers"
+            android:label="Offers"
+            android:theme="@style/Theme.Design.Light" />
+        <activity
+            android:name=".timepick"
+            android:label="Set Time"
+            android:theme="@style/Theme.Design.Light" />
+        <activity
+            android:name=".contact"
+            android:label="Contact Us"
+            android:theme="@style/Theme.Design.Light" />
+        <activity
+            android:name=".rating"
+            android:label="Rate Us"
+            android:theme="@style/Theme.Design.Light" />
+
+        <activity android:name=".splash"
+            android:theme="@style/Theme.Design.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login"
+            android:theme="@style/Theme.Design.Light"
+            android:label="Login"/>
+        <activity android:name=".signup"
+            android:label="Signup"
+        android:theme= "@style/Theme.Design.Light"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+
+    </application>
+
+</manifest>
